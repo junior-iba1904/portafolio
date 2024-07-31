@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;1,200&display=swap');
+
+.designs{
+    background-color: #1e2326;
+    color: white;
+    padding: 50px 20px;
+}
+
+.design{
+    cursor: pointer;
+}
+
+.designs .contenedor-sep{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.designs h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.designs .galeria-design h2{
+    font-size: 30px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.designs p{
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px;
+}
+
+.designs .galeria-design{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 100px 0px;
+}
+
+.designs .galeria-design .design{
+    position: relative;
+    height: fit-content;
+    margin: 10px;
+}
+
+.designs .galeria-design .design img{
+    height: 200px;
+    display: block;
+}
+
+.designs .galeria-design .design .overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(rgba(28,182,152,0.8), rgba(28,182,152,0.8));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+    font-size: 18px;
+    letter-spacing: 3px;
+    opacity: 0;
+}
+
+.designs .galeria-design .design .overlay{
+    color: white;
+}
+
+.designs .galeria-design .design .overlay h3{
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.designs .galeria-design .design .overlay:hover{
+opacity: 1;
+}
+
+.designs .galeria-design .design .overlay:hover h3{
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width:700px) {
+
+    .designs .galeria-design{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .designs .galeria-design .design img{
+        height: 150px;
+        display: block;
+    }
+
+}

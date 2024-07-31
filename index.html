@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b44141ae9b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos\inicio.css">
+    <link rel="stylesheet" href="estilos\segunda_seccion.css">
+    <link rel="stylesheet" href="estilos\tercera_seccion.css">
+    <link rel="stylesheet" href="estilos\cuarta_seccion.css">
+    <link rel="stylesheet" href="estilos\quinta_seccion.css">
+    <link rel="stylesheet" href="estilos\sexta_seccion.css">
+    <link rel="stylesheet" href="estilos\septima_seccion.css">
+
+    <title>Portafolio</title>
+</head>
+<body>
+    <!--BARRA DE MENU-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">JUNIOR</a>
+            </div>
+
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#actividades" onclick="seleccionar()">ACTIVIDADES</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!--PRIMERA SECCION-->
+    <section id="inicio" class="inicio">
+        <div class="contenedor-banner">
+            <div class="contenedor-img">
+                <img src="imagenes/FOTO-CV.jpeg" alt="">
+            </div>
+            <h1>JUNIOR IBAÑEZ</h1>
+            <h2>Estudiante de ingenieria de Sistemas e Informática</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/junior-iba%C3%B1ez-009577236/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/junior-iba1904/junior-iba1904" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--SEGUNDA SECCION-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenedor-second">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, me llamo Ralph Junior Ibañez Chanamé, </span> y soy un estudiante de la carrera de Ingeniería de Sistemas e informática 
+                de la Universidad Tecnológica del Perú, apasionado en el desarrollo de aplicaciones móviles y sitios web. Busco oportunidades para aplicar
+                mis conocimientos y ganar experiencia práctica en el diseño y desarrollo de interfaces de usuarios.</p>
+
+            <div class="fila">
+            <!--datos personales-->
+            <div class="col">
+                <h3>Datos personales</h3>
+                <ul>
+                    <li>
+                        <strong>Cumpleaños</strong>
+                        04-06-2003
+                    </li>
+                    <li>
+                        <strong>Teléfono</strong>
+                        +51 944 422 426
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        ibanezjunior59@gmail.com
+                    </li>
+                </ul>
+            </div>
+
+            <!--intereses-->
+            <div class="col">
+                <h3>Intereses</h3>
+                <div class="contenedor-intereses">
+                    <div class="intereses">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>JUEGOS</span>
+                    </div>
+                    <div class="intereses">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>MUSICA</span>
+                    </div>
+                    <div class="intereses">
+                        <i class="fa-solid fa-bicycle"></i>
+                        <span>CICLISMO</span>
+                    </div>
+                    <div class="intereses">
+                        <i class="fa-solid fa-basketball"></i>
+                        <span>BASQUET</span>
+                    </div>
+                    <div class="intereses">
+                        <i class="fa-solid fa-futbol"></i>
+                        <span>FUTBOL</span>
+                    </div>
+                    <div class="intereses">
+                        <i class="fa-solid fa-meteor"></i>
+                        <span>ASTRONOMIA</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!--TERCERA SECCION-->
+    <section class="skills" id="skills">
+        <div class="contenedor-thirt">
+            <h2>SKILLS</h2>
+            <div class="fila">
+                <!--HABILIDADES TECNICAS-->
+                <div class="col">
+                    <h3>Habilidades tecnicas</h3>
+                    <div class="skill">
+                        <span>JAVASCRIPT</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>BASE DE DATOS</span>
+                        <div class="barra-skill">
+                            <div class="progreso base">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>JAVA</span>
+                        <div class="barra-skill">
+                            <div class="progreso java">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>FLUTTER</span>
+                        <div class="barra-skill">
+                            <div class="progreso flutter">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--HABILIDADES PERSONALES-->
+                <div class="col">
+                    <h3>Habilidades personales</h3>
+                    <div class="skill">
+                        <span>COMUNICACIÓN</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>TRABAJO EN EQUIPO</span>
+                        <div class="barra-skill">
+                            <div class="progreso group">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>CREATIVIDAD</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>PUNTUALIDAD</span>
+                        <div class="barra-skill">
+                            <div class="progreso puntualidad">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>RESPONSABILIDAD</span>
+                        <div class="barra-skill">
+                            <div class="progreso respon">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CUARTA SECCION-->
+    <section class="curriculum" id="curriculum">
+        <div class="contenedor-four">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingenieria de sistemas e informática</h4>
+                        <span class="lugar">Universidad Tecnológica del Perú</span>
+                        <span class="fecha">2020 - actualidad</span>
+                        <p>Llevo 3 años y medio estudiando en esta universidad, por un tiempo estudié de manera virtual por la pandemia,
+                            y recién en este año comencé a estudiar de manera presencial. En este primer periodo 2023 obtuve el quinto 
+                            superior de mi carrera.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>    
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo o proyectos</h3>
+                    <div class="item der">
+                        <h4>Prácticante en soporte técnico y redes</h4>
+                        <span class="lugar">Municipalidad Provincial de Chiclayo - GTIE</span>
+                        <span class="fecha">18/08/2023 - 18/12/2023</span>
+                        <p>Estuve realizando mis prácticas por 3 meses en la municipalidad de chiclayo. He aprendido en el mantenimiento
+                            en las computadoras, estructuración de cables de red, configuración de cámaras, 
+                            Registro de inventario y configuración de switches.  
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                        </div>  
+                        
+                        <div class="item der">
+                            <h4>Proyectos de Programación web</h4>
+                            <span class="lugar">Universidad Tecnológica del Perú - cursos</span>
+                            <span class="fecha">2021- actualidad</span>
+                            <p>Durante los estudios en la universidad estuve realizando proyectos de programación pedidos por los docentes.
+                                Como proyectos realizados con java, HTML, CSS y javascript, PHP. La base de datos que estuve realizando fueron SQL server y
+                                MySQL. Y lo que son de librerías, por el momento solo he utilizado bootstrap.   
+                            </p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                            </div> 
+                            
+                            <div class="item der">
+                                <h4>Proyecto de aplicativo móvil</h4>
+                                <span class="lugar">Universidad Tecnológica del Perú - cursos</span>
+                                <span class="fecha">2021- actualidad</span>
+                                <p>En el primer semestre del año 2024, se realizó un proyecto de reportes de incidencias, conformado por 
+                                    5 integrantes. Este proyecto se dividió por fases:
+                                    - primera fase: sistema de gestor de inventario
+                                    - segunda fase: sistema de gestor de incidencias
+                                    - tercera fase: aplicación móvil de reporte de incidencias ( esta fase estuve realizando)   
+                                </p>
+                                <div class="conectord">
+                                    <div class="circulod"></div>
+                                </div>
+                                </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--QUINTA SECCION-->
+    <section class="actividades" id="actividades">
+        <div class="contenedor-five">
+            <h2>ACTIVIDADES</h2>
+            <p>Desarrollo de sitios web (proyectos de practica)</p>
+            <div class="galeria">
+                <div class="actividad">
+                    <img src="imagenes/tienda.jpg">
+                    <a href="https://junior-iba1904.github.io/Hackaton/" target="_blank">
+                    <div class="overlay">
+                        <h3>Diseño Tienda - Básica</h3>
+                        <p>En proceso</p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="actividad">
+                    <img src="imagenes/anime.png">
+                    <a href="https://junior-iba1904.github.io/JRAnime/" target="_blank">
+                    <div class="overlay">
+                        <h3>Diseño Página anime</h3>
+                        <p>En proceso</p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="actividad">
+                    <img src="imagenes/yakumaraq.jpg">
+                    <a href="https://junior-iba1904.github.io/YAKUMARAQ/" target="_blank">
+                    <div class="overlay">
+                        <h3>Diseño Página estática</h3>
+                        <p>En proceso</p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="actividad">
+                    <img src="imagenes/compra-online.png">
+                    <a href="https://junior-iba1904.github.io/Tienda-online/" target="_blank">
+                    <div class="overlay">
+                        <h3>Compra Online - Básico</h3>
+                        <p>Terminado</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SEXTA SECCION-->
+    <section class="apps" id="apps">
+        <div class="contenedor-six">
+            <h2>Aplicaciones moviles</h2>
+            <p>(No estan conectados a una base de datos, solo son de prueba)</p>
+            <p>(Por el momento solo esta habilitado para celulares android)</p>
+            <div class="galeria-app">
+                <h2>Registro de ganancias y gastos</h2>
+                <div class="app">
+                    <img src="imagenes/qrcode_generado.png">
+                    <div class="overlay">
+                        <h3>Escanear código QR</h3>
+                        <p>Terminado</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SEPTIMA SECCION-->
+    <section class="designs" id="designs">
+        <div class="contenedor-sep">
+            <h2>Diseño UI</h2>
+            <div class="galeria-design">
+                <div>
+                <h2>Droguería Corporación Centralfarma EIRL</h2>
+                <p>Este diseño se hizo para un trabajo academico de mi universidad,
+                    con el objetivo de realizar un aplicativo móvil para el control de 
+                    envios de productos farmacéuticos.
+                </p>
+                </div>
+                <div class="design">
+                    <img src="imagenes/UI1.png">
+                    <a href="https://www.figma.com/file/ZT2p0af8mtbafGznOgcFFh/Figma-Basics?type=design&node-id=0%3A286&mode=design&t=hQhFDCbhILwqbiVb-1" target="_blank">
+                    <div class="overlay">
+                        <h3>Escanear código QR</h3>
+                        <p>Terminado</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="galeria-design">
+                <div>
+                    <h2>Multimobil</h2>
+                    <p>Este diseño se realizó para hacer un aplicativo movil que 
+                        estuve practicando, con el objetivo de buscar información 
+                        de celulares, precios y tiendas en donde comprar.
+                    </p>
+                </div>
+                <div class="design">
+                    <img src="imagenes/UI2.png">
+                    <a href="https://www.figma.com/file/mIbRePJ7RYpldPze4cWYSQ/Untitled?type=design&node-id=0%3A1&mode=design&t=hQhFDCbhILwqbiVb-1" target="_blank">
+                    <div class="overlay">
+                        <h3>Escanear código QR</h3>
+                        <p>Terminado</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="galeria-design">
+                <div>
+                <h2>Lista de apuntes</h2>
+                <p>Este diseño se hizo para un aplicativo movil que estuve realizando, 
+                    con el objetivo de que los usuarios puedan apuntar sus ganacias y 
+                    gastos que hayan tenido cada dia.
+                </p>
+                </div>
+                <div class="design">
+                    <img src="imagenes/UI3.png">
+                    <a href="https://www.figma.com/file/7HNwcaUfIe7YbWcegnbdc6/Untitled?type=design&mode=design&t=hQhFDCbhILwqbiVb-1" target="_blank">
+                    <div class="overlay">
+                        <h3>Escanear código QR</h3>
+                        <p>Terminado</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="galeria-design">
+                <div>
+                <h2>Reporte de incidencias</h2>
+                <p>Este diseño se hizo para un aplicativo movil y web, en lo cual esta dirigido
+                    para la municipalidad de chiclayo, con el objetivo de que los usuarios puedan
+                    hacer sus reportes en una app y web.
+                </p>
+                </div>
+                <div class="design">
+                    <img src="imagenes/UI4.png">
+                    <a href="https://www.figma.com/design/ewEtyjuyu6DZ2g93rMTQgE/Figma-basics?node-id=1669-162202&t=IZixa39Y7OWFBxm5-1" target="_blank">
+                    <div class="overlay">
+                        <h3>Escanear código QR</h3>
+                        <p>Terminado</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/junior-iba%C3%B1ez-009577236/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/junior-iba1904/junior-iba1904" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="javascript/script.js"></script>
+</body>
+</html>

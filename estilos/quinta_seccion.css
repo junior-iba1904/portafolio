@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;1,200&display=swap');
+/*QUINTA SECCION*/
+.actividades{
+    background-color: #1e2326;
+    color: white;
+    padding: 50px 20px;
+}
+
+.actividades .contenedor-five{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.actividades h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.actividades p{
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px;
+}
+
+.actividades .galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px),1fr));
+}
+
+.actividades .galeria .actividad{
+    position: relative;
+    max-width: 340px;
+    height: fit-content;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.actividades .galeria .actividad img{
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+.actividades .galeria .actividad .overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(rgba(28,182,152,0.8), rgba(28,182,152,0.8));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+    font-size: 18px;
+    letter-spacing: 3px;
+    opacity: 0;
+}
+
+.actividades .galeria .actividad .overlay{
+    color: white;
+}
+
+.actividades .galeria .actividad .overlay h3{
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.actividades .galeria .actividad .overlay:hover{
+opacity: 1;
+}
+
+.actividades .galeria .actividad .overlay:hover h3{
+    margin-bottom: 0px;
+}
