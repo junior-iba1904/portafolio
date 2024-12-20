@@ -165,7 +165,7 @@
 
 @keyframes flutter{
     0%{width: 0%;}
-    100%{width: 40%;}
+    100%{width: 70%;}
 }
 
 @media screen and (max-width:700px) {
